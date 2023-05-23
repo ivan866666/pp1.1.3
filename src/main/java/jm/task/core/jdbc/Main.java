@@ -9,13 +9,13 @@ public class Main {
         UserService us = new UserServiceImpl();
         us.createUsersTable();
 
-        us.saveUser("Sherlock", "Holmes", (byte) 40);
-        us.saveUser("John", "Watson", (byte) 30);
-        us.saveUser("Microft", "Holmes", (byte) 45);
-        us.saveUser("Iren", "Adler", (byte) 30);
-        us.saveUser("Tobias", "Gregson", (byte) 50);
-        us.saveUser("Sebastian", "Moran", (byte) 52);
-        us.saveUser("James", "Moriarty", (byte) 47);
+        us.saveUser("Vasya", "Pupkin", (byte) 21);
+        us.saveUser("John", "Yik", (byte) 41);
+        us.saveUser("Merlin", "Menson", (byte) 57);
+        us.saveUser("Pomella", "Andorson", (byte) 61);
+        us.saveUser("Roberto", "Carlos", (byte) 52);
+        us.saveUser("Yrii", "Gagarin", (byte) 98);
+        us.saveUser("Jenifer", "Lopaz", (byte) 49);
 
         us.getAllUsers().forEach(System.out::println);
 
